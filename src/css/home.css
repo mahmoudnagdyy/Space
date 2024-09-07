@@ -1,0 +1,669 @@
+.big-container {
+    background-image: url(../imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.home-container {
+    margin-top: 250px;
+}
+
+.home-container h1 {
+    line-height: 70px;
+}
+
+.home-container h1 span {
+    color: #83e8ce;
+}
+
+.home-container a {
+    background-color: #83e8ce;
+}
+
+.home-container .hero {
+    animation: imgAnimation 5s linear infinite alternate;
+    -webkit-animation: imgAnimation 5s linear infinite alternate;
+}
+
+
+
+@keyframes imgAnimation {
+    0% {
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+}
+
+.flight-container {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.earth {
+    width: 750px;
+    margin: auto;
+    animation: earthRotate 200s linear infinite;
+    -webkit-animation: earthRotate 200s linear infinite;
+}
+
+@keyframes earthRotate {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+.plants-container {
+    margin-top: -416px;
+}
+
+.plant {
+    background-image: url(../imgs/cardBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99999999999999999999999999999999999999;
+    padding: 0 10px 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    height: fit-content;
+    z-index: 3;
+}
+
+.plant img {
+    width: 130px;
+    box-shadow: -4px 2px 22px #02beff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+}
+
+.plant h2 {
+    color: #83e8ce;
+    margin-top: -20px;
+}
+
+.plant p {
+    margin: 20px 0;
+    width: 200px;
+}
+
+.plant a {
+    background-color: #83e8ce;
+}
+
+
+.mission-container {
+    margin-bottom: 200px;
+}
+
+.mission-container img {
+    width: 200px;
+    animation: imgAnimation 5s linear infinite alternate;
+    -webkit-animation: imgAnimation 5s linear infinite alternate;
+}
+
+.mission-info p {
+    max-width: 600px;
+}
+
+.mission-info a {
+    background-color: #83e8ce;
+}
+
+.shop-container {
+    margin-bottom: 200px;
+}
+
+.shop-container a {
+    background-color: #83e8ce;
+}
+
+.product {
+    background-image: url(../imgs/cardBg.jpg);
+    padding: 0 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    padding-bottom: 30px;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+}
+
+.product h3 {
+    color: #83e8ce;
+}
+
+.product p {
+    max-width: 200px;
+}
+
+.product a {
+    background-color: #83e8ce;
+}
+
+.experience-container img {
+    width: 350px;
+    animation: imgAnimation 5s linear infinite alternate;
+    -webkit-animation: imgAnimation 5s linear infinite alternate;
+}
+
+.experience-info p {
+    max-width: 500px;
+}
+
+.experience-info a {
+    background-color: #83e8ce;
+}
+
+
+.left-footer p {
+    max-width: 400px;
+}
+
+.social-links a:hover {
+    color: #83e8ce;
+}
+
+.middle-footer h3 {
+    color: #83e8ce;
+}
+
+.middle-footer a:hover {
+    color: #83e8ce;
+}
+
+.last-footer h3 {
+    color: #83e8ce;
+}
+
+.last-footer .whats-icon {
+    color: #83e8ce;
+}
+
+.last-footer a:hover {
+    color: #83e8ce;
+}
+
+.top {
+    background-color: #83e8ce;
+}
+
+
+
+
+
+@media (max-width: 400px) {
+
+    .home-container {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+
+    .home-container .hero {
+        width: 220px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .home-container h1 {
+        text-align: center;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .home-container a {
+        margin: auto;
+    }
+
+    .plants-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 420px;
+    }
+
+    .flight-container {
+        margin-bottom: 41px;
+    }
+
+    .plant {
+        margin: auto;
+        width: 229px;
+    }
+
+    .earth {
+        width: 250px;
+    }
+
+    .margin1 {
+        margin-top: -460px;
+        margin-bottom: 100px;
+    }
+
+    .margin2 {
+        margin-bottom: 100px;
+    }
+
+    .margin3 {
+        margin-bottom: 100px;
+    }
+
+    .margin4 {
+        margin-bottom: 100px;
+    }
+
+    .mission-container {
+        flex-direction: column;
+    }
+
+    .mission-container img {
+        width: 140px;
+        margin-bottom: 100px;
+    }
+
+    .mission-info {
+        align-items: center;
+        margin: auto;
+    }
+
+    .mission-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info a {
+        margin: auto;
+    }
+
+    .left-footer {
+        margin-bottom: 50px;
+    }
+
+    .middle-footer {
+        margin-bottom: 50px;
+    }
+
+    .last-footer {
+        margin-bottom: 50px;
+    }
+
+    .developed p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .home-container {
+        flex-direction: column-reverse;
+        margin-top: 108px;
+    }
+
+    .home-container .hero {
+        width: 220px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .home-container h1 {
+        text-align: center;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .home-container a {
+        margin: auto;
+    }
+
+    .plants-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 420px;
+    }
+
+    .plant {
+        width: 229px;
+    }
+
+    .earth {
+        width: 250px;
+    }
+
+    .margin1 {
+        margin-top: -460px;
+        margin-bottom: 100px;
+    }
+
+    .margin2 {
+        margin-bottom: 100px;
+    }
+
+    .margin3 {
+        margin-bottom: 100px;
+    }
+
+    .margin4 {
+        margin-bottom: 100px;
+    }
+
+    .flight-container {
+        margin-bottom: 41px;
+    }
+
+    .mission-container {
+        flex-direction: column;
+    }
+
+    .mission-container img {
+        width: 140px;
+        margin-bottom: 100px;
+    }
+
+    .mission-info {
+        align-items: center;
+        margin: auto;
+    }
+
+    .mission-info p {
+        text-align: center;
+    }
+
+    .experience-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info a {
+        margin: auto;
+    }
+
+    .left-footer {
+        margin-bottom: 50px;
+    }
+
+    .middle-footer {
+        margin-bottom: 50px;
+    }
+
+    .last-footer {
+        margin-bottom: 50px;
+    }
+
+    .developed p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .home-container {
+        flex-direction: column-reverse;
+        margin-top: 135px;
+    }
+
+    .home-container .hero {
+        width: 220px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .home-container h1 {
+        text-align: center;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .home-container a {
+        margin: auto;
+    }
+
+    .plants-container {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -58px;
+    }
+
+    .plant {
+        width: 229px;
+    }
+
+    .earth {
+        width: 250px;
+    }
+
+    .margin1 {
+        margin-bottom: 100px;
+    }
+
+    .margin2 {
+        margin-bottom: 100px;
+    }
+
+    .margin3 {
+        margin-bottom: 100px;
+    }
+
+    .margin4 {
+        margin-bottom: 100px;
+    }
+
+    .flight-container {
+        margin-bottom: 41px;
+    }
+
+    .mission-container {
+        flex-direction: column;
+    }
+
+    .mission-container img {
+        width: 140px;
+        margin-bottom: 100px;
+    }
+
+    .mission-info {
+        align-items: center;
+        margin: auto;
+    }
+
+    .mission-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info a {
+        margin: auto;
+    }
+
+    .left-footer {
+        margin-bottom: 50px;
+    }
+
+    .middle-footer {
+        margin-bottom: 50px;
+    }
+
+    .last-footer {
+        margin-bottom: 50px;
+    }
+
+    .developed p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1250px) {
+    .home-container {
+        flex-direction: column-reverse;
+        margin-top: 136px;
+    }
+
+    .home-container .hero {
+        width: 220px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .home-container h1 {
+        text-align: center;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .home-container a {
+        margin: auto;
+    }
+
+    .plants-container {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -58px;
+    }
+
+    .plant {
+        width: 229px;
+    }
+
+    .earth {
+        width: 250px;
+    }
+
+    .margin1 {
+        margin-bottom: 100px;
+    }
+
+    .margin2 {
+        margin-bottom: 100px;
+    }
+
+    .margin3 {
+        margin-bottom: 100px;
+    }
+
+    .margin4 {
+        margin-bottom: 100px;
+    }
+
+    .flight-container {
+        margin-bottom: 41px;
+    }
+
+    .mission-container img {
+        width: 140px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .mission-info {
+        align-items: center;
+        margin: auto;
+    }
+
+    .mission-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info p,
+    h2 {
+        text-align: center;
+    }
+
+    .experience-info a {
+        margin: auto;
+    }
+
+    .left-footer {
+        margin-bottom: 50px;
+    }
+
+    .middle-footer {
+        margin-bottom: 50px;
+    }
+
+    .last-footer {
+        margin-bottom: 50px;
+    }
+
+    .developed p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
