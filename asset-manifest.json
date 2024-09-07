@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Space/static/css/main.98e5e984.css",
+    "main.js": "/Space/static/js/main.0174783b.js",
+    "static/js/453.1a094713.chunk.js": "/Space/static/js/453.1a094713.chunk.js",
+    "static/media/earthPlanet.png": "/Space/static/media/earthPlanet.2d516cee25fda420ac24.png",
+    "static/media/background.jpg": "/Space/static/media/background.854d400150d8813b0969.jpg",
+    "static/media/hero.png": "/Space/static/media/hero.edb0f8e9eb9836352560.png",
+    "static/media/helmet.png": "/Space/static/media/helmet.e888f626f31791810a10.png",
+    "static/media/mars-rock.jpg": "/Space/static/media/mars-rock.6529080d60e11e3e60bc.jpg",
+    "static/media/Spaceship.png": "/Space/static/media/Spaceship.f7e2177637c315ab6e01.png",
+    "static/media/astronaut.png": "/Space/static/media/astronaut.3132ffae0f1053d1ecac.png",
+    "static/media/cardBg.jpg": "/Space/static/media/cardBg.42ab7f13fac31c0a1a69.jpg",
+    "static/media/uranus.png": "/Space/static/media/uranus.21abc8aeccc21bb531fd.png",
+    "static/media/space-suit.jpg": "/Space/static/media/space-suit.ddd69cd97aff13ea5463.jpg",
+    "static/media/neptune.png": "/Space/static/media/neptune.753b7a3bb823901bb8e9.png",
+    "static/media/mercury.png": "/Space/static/media/mercury.10cf63e4cffe195a5303.png",
+    "static/media/mars.png": "/Space/static/media/mars.edbb971128530235e550.png",
+    "static/media/logo.png": "/Space/static/media/logo.0c87f949518dc3ee3fdc.png",
+    "static/media/moon.png": "/Space/static/media/moon.0df68f31c8f166c1cca4.png",
+    "static/media/light-moon.png": "/Space/static/media/light-moon.7c28a57425ebe407f426.png",
+    "static/media/logo.svg": "/Space/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Space/index.html",
+    "main.98e5e984.css.map": "/Space/static/css/main.98e5e984.css.map",
+    "main.0174783b.js.map": "/Space/static/js/main.0174783b.js.map",
+    "453.1a094713.chunk.js.map": "/Space/static/js/453.1a094713.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e5e984.css",
+    "static/js/main.0174783b.js"
+  ]
+}
